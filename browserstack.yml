@@ -1,0 +1,16 @@
+userName: raktimqa_qbt6gS
+accessKey: XRxBsh2qmongKozsdGJt
+framework: testng
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: 103.0
+  - deviceName: iPhone 14 Pro Max
+    osVersion: 16
+    browserName: ios
+    deviceOrientation: portrait
+  - os: OS X
+    osVersion: Big Sur
+    browserName: Safari
+    browserVersion: 14.1
