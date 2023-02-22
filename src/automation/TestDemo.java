@@ -14,7 +14,7 @@ public class TestDemo {
 	public void titleCheck() throws MalformedURLException 
 	{
 		MutableCapabilities caps = new MutableCapabilities();
-		
+		// Testing branch
 		WebDriver driver =  new RemoteWebDriver(new URL("https://hub.browserstack.com/wd/hub"), caps);
 		driver.get("https://rahulshettyacademy.com/");
 		Assert.assertTrue(driver.getTitle().matches("Selenium, API Testing, Software Testing &amp; More QA Tutorials  | Rahul Shetty Academy"));
