@@ -14,7 +14,7 @@ public class TestDemo2 {
 	public void titleCheckGoogle() throws MalformedURLException 
 	{
 		MutableCapabilities caps = new MutableCapabilities();
-		
+		//Test1
 		WebDriver driver =  new RemoteWebDriver(new URL("https://hub.browserstack.com/wd/hub"), caps);
 		driver.get("https://www.google.com/");
 		Assert.assertTrue(driver.getTitle().matches("Google"));
